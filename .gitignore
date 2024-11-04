@@ -1,0 +1,44 @@
+# Ignore the virtual environment folder
+myenv/
+myvenv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyc
+*~
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Django migrations
+*/migrations/
+
+# Ignore environment settings
+.env
+
+# Ignore other OS-specific or IDE files
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.idea/
+
+# Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
+
+
+# Database
+db.sqlite3
+
+# Static folder at project root
+/static/
